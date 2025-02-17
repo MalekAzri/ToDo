@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="ex3.css">
+</head>
+<body>
+<section class="vh-100" style="background-image: url('https://img.freepik.com/premium-photo/butterflies-pink-background_869640-51684.jpg')">
+    <div class="container py-5 h-100" style="background-color: rgb(214, 127, 214);">
+        <div class="block row d-flex justify-content-center align-items-center h-100">
+            <div class="col col-lg-9 col-xl-7" style="background-color:rgb(214, 127, 214)">
+                <div class="card rounded-3" style="background-color: antiquewhite;">
+                    <div class="card-body p-4">
+                        <h4 class="text-center my-3 pb-3">To Do List</h4>
+                        <div class="d-flex flex-column align-items-center mb-4 pb-2">
+                            <div class="w-100">
+                                <input type="text" id="form1" class="form-control" placeholder="Enter a task here" />
+                            </div>
+                            <div class="mt-2 d-flex gap-2">
+                              <button type="button" class="save btn btn-outline-danger">save</button>
+                            </div>
+                        </div>
+                        <table class="table mb-4">
+                            <thead>
+                                <tr>
+                                    <th scope="col">No.</th>
+                                    <th scope="col">Todo item</th>
+                                    <th scope="col">Status</th>
+                                    <th scope="col">Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody class="list">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="ex3.js"></script>
+</body>
+</html>
